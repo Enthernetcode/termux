@@ -1,0 +1,8 @@
+#!/bin/bash
+
+apt install ruby
+apt install gcc
+./metasploit.sh
+git clone https://github.com/beefproject/beef
+cd beef
+bash install
